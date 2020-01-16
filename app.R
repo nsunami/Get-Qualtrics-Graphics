@@ -17,11 +17,11 @@ ui <- fluidPage(
     # Application title
     titlePanel("Get Qualtrics Graphics"),
     
-    "Copoy and paste the HTML Source from the Qualtrics, Graphics Library (Library -> Graphics Library)",
-    
+    "Copoy and paste the entire HTML Source from the Qualtrics, Graphics Library (Library -> Graphics Library)",
+
     textInput("base_url", "Base URL to the file (Optional):", "https://delaware.ca1.qualtrics.com/ControlPanel/Graphic.php?IM="),
     
-    textAreaInput("page_source", "Copy and paste HTML source here:", "[HTML Source Here]", width = "800px", height="400px"),
+    textAreaInput("page_source", "Copy and paste HTML source here:", "[Paste your HTML Source Here]", width = "800px", height="400px"),
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
         sidebarPanel(
