@@ -40,3 +40,6 @@ vignettes/*.pdf
 
 # Ignore Archive folder
 archive
+
+# Ignore .DS store
+.DS_Store
