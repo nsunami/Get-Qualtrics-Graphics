@@ -1,0 +1,13 @@
+name: Get-Qualtrics-Graphics
+title: Get-Qualtrics-Graphics
+username:
+account: nsunami
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1667902
+bundleId: 2734101
+url: https://nsunami.shinyapps.io/Get-Qualtrics-Graphics/
+when: 1579206973.64091
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: archive/test_source.txt|archive/testing regex.R
